@@ -77,8 +77,12 @@ void Error_Handler(void);
 #define ADC6_GPIO_Port GPIOA
 #define ADC7_Pin GPIO_PIN_1
 #define ADC7_GPIO_Port GPIOB
+#define SDA_Pin GPIO_PIN_10
+#define SDA_GPIO_Port GPIOD
 #define SCL_Pin GPIO_PIN_11
 #define SCL_GPIO_Port GPIOD
+#define key_Pin GPIO_PIN_15
+#define key_GPIO_Port GPIOA
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */

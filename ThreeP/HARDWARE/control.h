@@ -11,6 +11,7 @@
 #include "dma.h"
 #include "adc.h"
 #include "foc1.h"
+#include "oled.h"
 
 
 extern uint16_t Adc_Samp[];   //检测dma采样序列的值
@@ -20,7 +21,9 @@ extern const fp32 PID_i2[3];
 extern const fp32 PID_v1[3];
 extern const fp32 PID_v2[3];
 extern const fp32 PID_oV[3];
-extern pid_type_def pid_i1,pid_i2,pid_v2,pid_v1,pid_oV;
+extern pid_type_def pid1_Vq,pid1_Id,pid1_Vd,pid1_Iq,pid_up,pid_uo;
+extern int soft_flag;
+extern float U_DCP, U_DCO;
 //extern float PhaseA[],PhaseB[],PhaseC[];
 
 

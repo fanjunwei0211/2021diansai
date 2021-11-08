@@ -46,3 +46,6 @@ threep\main.o: ..\HARDWARE\pid.h
 threep\main.o: ..\HARDWARE\struct_typedef.h
 threep\main.o: ..\HARDWARE\key.h
 threep\main.o: ..\HARDWARE\foc1.h
+threep\main.o: ..\HARDWARE\oled.h
+threep\main.o: ..\HARDWARE\sys.h
+threep\main.o: D:\ARM\ARMCC\Bin\..\include\stdlib.h

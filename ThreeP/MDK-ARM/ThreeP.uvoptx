@@ -245,6 +245,46 @@
           <WinNumber>1</WinNumber>
           <ItemText>TIq</ItemText>
         </Ww>
+        <Ww>
+          <count>19</count>
+          <WinNumber>1</WinNumber>
+          <ItemText>U_DCP,0x0A</ItemText>
+        </Ww>
+        <Ww>
+          <count>20</count>
+          <WinNumber>1</WinNumber>
+          <ItemText>TUp</ItemText>
+        </Ww>
+        <Ww>
+          <count>21</count>
+          <WinNumber>1</WinNumber>
+          <ItemText>pid_up</ItemText>
+        </Ww>
+        <Ww>
+          <count>22</count>
+          <WinNumber>1</WinNumber>
+          <ItemText>Vpi,0x0A</ItemText>
+        </Ww>
+        <Ww>
+          <count>23</count>
+          <WinNumber>1</WinNumber>
+          <ItemText>Adc_Samp,0x0A</ItemText>
+        </Ww>
+        <Ww>
+          <count>24</count>
+          <WinNumber>1</WinNumber>
+          <ItemText>TUp,0x0A</ItemText>
+        </Ww>
+        <Ww>
+          <count>25</count>
+          <WinNumber>1</WinNumber>
+          <ItemText>t_ang,0x0A</ItemText>
+        </Ww>
+        <Ww>
+          <count>26</count>
+          <WinNumber>1</WinNumber>
+          <ItemText>ang_flag,0x0A</ItemText>
+        </Ww>
       </WatchWindow1>
       <Tracepoint>
         <THDelay>0</THDelay>
@@ -664,7 +704,7 @@
       <GroupNumber>5</GroupNumber>
       <FileNumber>28</FileNumber>
       <FileType>1</FileType>
-      <tvExp>0</tvExp>
+      <tvExp>1</tvExp>
       <tvExpOptDlg>0</tvExpOptDlg>
       <bDave2>0</bDave2>
       <PathWithFileName>..\HARDWARE\control.c</PathWithFileName>
@@ -729,6 +769,30 @@
       <bDave2>0</bDave2>
       <PathWithFileName>..\HARDWARE\foc1.c</PathWithFileName>
       <FilenameWithoutPath>foc1.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>5</GroupNumber>
+      <FileNumber>34</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\HARDWARE\soft_iic.c</PathWithFileName>
+      <FilenameWithoutPath>soft_iic.c</FilenameWithoutPath>
+      <RteFlg>0</RteFlg>
+      <bShared>0</bShared>
+    </File>
+    <File>
+      <GroupNumber>5</GroupNumber>
+      <FileNumber>35</FileNumber>
+      <FileType>1</FileType>
+      <tvExp>0</tvExp>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <bDave2>0</bDave2>
+      <PathWithFileName>..\HARDWARE\oled.c</PathWithFileName>
+      <FilenameWithoutPath>oled.c</FilenameWithoutPath>
       <RteFlg>0</RteFlg>
       <bShared>0</bShared>
     </File>

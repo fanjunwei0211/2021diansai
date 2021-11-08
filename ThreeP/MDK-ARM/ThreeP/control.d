@@ -46,3 +46,6 @@ threep\control.o: ../Core/Inc/dma.h
 threep\control.o: ../Core/Inc/tim.h
 threep\control.o: ../Core/Inc/adc.h
 threep\control.o: ..\HARDWARE\foc1.h
+threep\control.o: ..\HARDWARE\oled.h
+threep\control.o: ..\HARDWARE\sys.h
+threep\control.o: D:\ARM\ARMCC\Bin\..\include\stdlib.h

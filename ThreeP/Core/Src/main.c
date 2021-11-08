@@ -49,6 +49,7 @@
 /* USER CODE BEGIN PV */
 float test_ang;
 extern IPARK ipark,ipark_I;
+extern int ang_flag;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -97,14 +98,22 @@ int main(void)
   /* USER CODE BEGIN 2 */
 	Starttime();
 	pid_param_init();
+	OLED_Init();
 	ipark.de=0.4;
 	ipark_I.de=0.5;
+	HAL_Delay(100);
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
+	OLED_Clear();
+	OLED_ShowString(0,0,"OUTV:",16);
+	OLED_Refresh_Gram();
+	
   while (1)
   {
+//		HAL_Delay(100);
+//		OLED_ShowNum(20,0,10,16,16);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */

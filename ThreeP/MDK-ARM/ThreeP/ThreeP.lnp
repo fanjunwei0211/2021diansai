@@ -32,6 +32,8 @@
 "threep\pid.o"
 "threep\sys.o"
 "threep\foc1.o"
+"threep\soft_iic.o"
+"threep\oled.o"
 --library_type=microlib --strict --scatter "ThreeP\ThreeP.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
